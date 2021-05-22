@@ -1,3 +1,7 @@
+## Video-2-GIF Converter
+
+![Screenshot_2021-05-22 Video 2 GIF Converter](https://user-images.githubusercontent.com/45850882/119228901-df0f1a80-bb32-11eb-95b2-1844ac1adf6e.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
