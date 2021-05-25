@@ -48,7 +48,7 @@ export default function Home() {
 
     axios({
       method: "get",
-      url: `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD}/video/upload/q_auto:low/${publicId}.gif`,
+      url: `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD}/video/upload/fl_lossy/q_auto:low/${publicId}.gif`,
       responseType: "blob",
     })
       .then((response) => {
@@ -122,6 +122,7 @@ export default function Home() {
             width="600"
             height="auto"
           >
+            <Transformation flags="lossy" />
             <Transformation quality="auto:low" />
             <Transformation effect="loop" />
           </Image>
